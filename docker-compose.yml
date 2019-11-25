@@ -1,0 +1,8 @@
+phaser:
+  image: php
+  # build: .
+  # restart: always
+  volumes:
+    - ./src:/var/www/html
+  ports:
+    - "8999:80"
